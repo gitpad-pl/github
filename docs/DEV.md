@@ -54,11 +54,15 @@ Use Param to create your description for ticket, without param as default is inf
 
     -ticket.bat "Solution for some problem"
 
-if you fixed use:
+if you fixed and you want push changes to git:
 
     -github-push.bat
 
 You can reapeat the commands: -ticket.bat & -github-push.bat if you want change in one version many things
+After All your changes are ready to publish, use command:
+
+    -npm-publish.bat
+
 
 and if You want create new feature go to the point below
 
