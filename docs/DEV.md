@@ -24,9 +24,8 @@ It's few info about development
 
 as default param in -ticket.bat is info about new Version
 
-#### ... or if you creating more Features or solutions for existing problem:
+#### ... or if you continue current topic for current version:
 
-    -version.bat
     -ticket.bat "Solution for some problem"
 
 #### After all changes are ready to publish, use
