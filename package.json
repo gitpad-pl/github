@@ -1,0 +1,30 @@
+{
+  "name": "@softreck/gitpad-github",
+  "version": "1.0.0",
+  "description": "API info about gihub repositories",
+  "main": "api.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitpad-pl/github.git"
+  },
+  "keywords": [
+    "gitpad",
+    "github",
+    "api",
+    "read",
+    "data",
+    "info"
+  ],
+  "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitpad-pl/github/issues"
+  },
+  "homepage": "https://github.com/gitpad-pl/github#readme"
+}
