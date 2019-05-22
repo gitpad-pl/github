@@ -1,13 +1,13 @@
-# github
-Libraries for Github Api Access, Read Only
+# Gitpad github
+Library for Support Github Api
+Usage is very easy, can help to fast start with github application
 
 
-## How to start
+## How to start ?
 
-    a-install.bat
-    a-build.bat
-    a-run.bat
+    -install.bat
+    -run.bat
 
 
-## PLease join to us
+## Please support the project and join to us :)
 [DEV.md](docs/DEV.md)
