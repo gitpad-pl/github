@@ -18,10 +18,6 @@
   "author": "Tomasz Sapletta",
   "company": "Softreck OÜ",
   "license": "MIT",
-  "devDependencies": {
-
-  },
-  "dependencies": {
-
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
