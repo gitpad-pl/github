@@ -36,23 +36,7 @@ description for ticket, without param as default is info about new Version
 
     -ticket.bat "Name of Your feature"
 
-... create changes in code, and publish on github and npm package
-
-    -publish.bat
-
-
-
-### ... or if you continue current topic for current version:
-
-    -ticket.bat "Solution for some problem"
-
-if fixed use:
-
-    -github-push.bat
-
-and if You want create new feature got to the point below
-
-#### After all changes for new Version publish using one command
+... create changes in code, and publish on github and npm package, for publishiong new Version we using one command
 
     -publish.bat
 
@@ -60,3 +44,20 @@ which execute two scripts in one moment
 
     -github-push.bat
     -npm-publish.bat
+
+
+### If you creating many changes for current version, you need 2 commands:
++ -ticket.bat
++ -github-push.bat
+
+    -ticket.bat "Solution for some problem"
+
+if you fixed use:
+
+    -github-push.bat
+
+You can reapeat the commands: -ticket.bat & -github-push.bat if you want change in one version many things
+
+and if You want create new feature go to the point below
+
+
