@@ -1,2 +1,2 @@
 :: Run the test version with description
-.\test\test.js
+::.\test\test.js

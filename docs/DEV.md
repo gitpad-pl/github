@@ -28,13 +28,20 @@ as default param in -ticket.bat is info about new Version
 
     -ticket.bat "Solution for some problem"
 
-#### After all changes are ready to publish, use
+if fixed use:
+    -github-push.bat
+
+and if You want create new feature got to the point below
+
+#### After all changes for new Version publish using one command
     -publish.bat
 
 which execute more scripts inside
 
     -github-push.bat
     -npm-publish.bat
+
+
 
 ## How to create node module
 https://docs.npmjs.com/creating-node-js-modules
