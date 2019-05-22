@@ -10,6 +10,12 @@ It's few info about development
 
 ## Short way to share your changes in code
 1. prepare your changes
+2. publish on github and npmjs
+
+    -publish.bat
+
+OR separated:
+
 2. Update Github Repository over command on windows
 
     -github-push.bat
