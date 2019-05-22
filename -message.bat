@@ -1,4 +1,5 @@
 @ECHO OFF
+SetLocal EnableDelayedExpansion
 for /f %%i in ('dir /b /od Ticket\*.md') do set filename=%%i
 ::set /p ticket=<Ticket\%filename%
 :: sed 's/\r$//' Ticket\%filename% > Ticket\%filename%
