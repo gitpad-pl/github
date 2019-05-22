@@ -6,7 +6,8 @@
 ::echo %CONTENT%
 ::IF "%CONTENT%" == "" set CONTENT="New Version"
 ::echo %CONTENT%
-npm version patch && node -pe "require('./package.json').version" > VERSION.txt
+npm version patch && node -pe "require('./package.json').version" > VERSION.txt && TYPE VERSION.txt | MORE /P > VERSION.txt
+
 ::&& set VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
 
 ::npm version patch > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
