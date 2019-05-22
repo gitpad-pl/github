@@ -7,6 +7,8 @@ Usage is very easy, can help to fast start with github application
 
     -install.bat
     -run.bat
+    OR
+    -test.bat
 
 
 ## Please support the project and join to us :)

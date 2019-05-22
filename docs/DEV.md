@@ -3,6 +3,28 @@
 If You want join to us, please read it
 It's few info about development
 
+## How to easy start development?
+1. prepare your changes
+2. Join to our project on Github (https://github.com/gitpad-pl/github)
+3. Update Github Repository over command on windows
+
+    -github-push.bat
+
+4. Join to our team on npmjs (https://www.npmjs.com/package/gitpad-github)
+5. Publish changes on Npm over command on windows
+
+    -npm-publish.bat
+
+## How to work daily, with our environment
+
+#### If you are creating one new Feature:
+
+    -version.bat "info about your changes"
+
+#### If you are creating more Features or solutions for existing problem:
+
+    -ticket.bat "Solution for some problem"
+
 ## How to create node module
 https://docs.npmjs.com/creating-node-js-modules
 
