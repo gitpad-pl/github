@@ -50,6 +50,8 @@ which execute two scripts in one moment
 + -ticket.bat
 + -github-push.bat
 
+Use Param to create your description for ticket, without param as default is info about new Version
+
     -ticket.bat "Solution for some problem"
 
 if you fixed use:
