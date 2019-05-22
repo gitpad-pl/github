@@ -29,10 +29,56 @@ https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
 
     npm init --scope=@softreck
 
-
-## Publish
+### Publish
 
     npm publish --access public
+
+### Documentation
+
+https://npmjs.com/package/@softreck/gitpad-github
+
+### install package
+
+    npm i @softreck/gitpad-github
+
+
+
+
+## for user
+
+    npm init --scope=@sapletta
+
+### Publish
+
+    npm publish --access public
+
+### Documentation
+
+https://npmjs.com/package/@sapletta/gitpad-github
+
+### install package
+
+    npm i gitpad-github
+
+
+
+## only package name
+
+    npm init
+
+### Publish
+
+    npm publish --access public
+
+### Documentation
+
+https://www.npmjs.com/package/gitpad-github
+
+### install package
+
+    npm i gitpad-github
+
+
 
 
 To see your public package page, visit https://npmjs.com/package/package-name,

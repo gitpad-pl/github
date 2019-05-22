@@ -1,6 +1,6 @@
 {
-  "name": "@softreck/gitpad-github",
-  "version": "1.0.0",
+  "name": "gitpad-github",
+  "version": "1.0.2",
   "description": "API info about gihub repositories",
   "main": "api.js",
   "directories": {
@@ -22,6 +22,7 @@
     "info"
   ],
   "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
+  "company": "Softreck OÜ (https://softreck.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/gitpad-pl/github/issues"
