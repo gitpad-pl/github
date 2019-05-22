@@ -17,12 +17,16 @@ It's few info about development
 
 ## How to work daily, with our environment
 
-#### If you are creating one new Feature:
+#### If you creating one new Feature:
 
-    -version.bat "info about your changes"
+    -version.bat
+    -ticket.bat
 
-#### If you are creating more Features or solutions for existing problem:
+as default param in -ticket.bat is info about new Version
 
+#### ... or if you creating more Features or solutions for existing problem:
+
+    -version.bat
     -ticket.bat "Solution for some problem"
 
 #### After all changes are ready to publish, use
