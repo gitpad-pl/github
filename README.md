@@ -10,4 +10,4 @@ Libraries for Github Api Access, Read Only
 
 
 ## PLease join to us
-[DEV.md](DEV.md)
+[DEV.md](docs/DEV.md)
