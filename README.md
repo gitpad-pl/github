@@ -5,12 +5,19 @@ Usage is very easy, can help to fast start with github application
 
 ## How to start ?
 
+Clone repository
+
     git clone https://github.com/gitpad-pl/github.git
 
+Install NPM dependencies
+
     -install.bat
+
+Run the Project
+
     -run.bat
 
-OR
+OR Testing the library
 
     -test.bat
 
