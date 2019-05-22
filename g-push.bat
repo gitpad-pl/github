@@ -1,2 +1,2 @@
 :: update npm
-npm install -g npm
+git commit -m "update" && git push origin master

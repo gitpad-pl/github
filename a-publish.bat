@@ -1,2 +1,2 @@
-:: update npm
-npm install -g npm
+:: publish npm package on npmjs.com
+npm publish --access public
