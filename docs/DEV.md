@@ -23,7 +23,7 @@ creating new version
 
     -version.bat
 
-description for ticket
+description for ticket, without param as default is info about new Version
 
     -ticket.bat "Name of Your feature"
 
@@ -31,7 +31,7 @@ description for ticket
 
     -publish.bat
 
-as default param in -ticket.bat is info about new Version
+
 
 #### ... or if you continue current topic for current version:
 
