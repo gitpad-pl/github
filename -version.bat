@@ -2,11 +2,13 @@
 ::setlocal enabledelayedexpansion
 ::setlocal enableextensions
 ::set /p "PARAM=test2:"
-set CONTENT=%~1
+::set CONTENT=%~1
 ::echo %CONTENT%
-IF "%CONTENT%" == "" set CONTENT=not
+::IF "%CONTENT%" == "" set CONTENT="New Version"
 ::echo %CONTENT%
-npm version patch && node -pe "require('./package.json').version" > VERSION.txt && pause && set VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
+npm version patch && node -pe "require('./package.json').version" > VERSION.txt
+::&& set VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
+
 ::npm version patch > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
 ::set DEFAULT=domyslny
 :: echo %VERSION% &&
