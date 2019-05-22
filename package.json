@@ -1,6 +1,6 @@
 {
   "name": "gitpad-github",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "API info about gihub repositories",
   "main": "api.js",
   "directories": {
