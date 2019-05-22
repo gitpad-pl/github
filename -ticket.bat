@@ -6,7 +6,7 @@ set CONTENT=%~1
 ::echo %CONTENT%
 IF "%CONTENT%" == "" set CONTENT=not
 ::echo %CONTENT%
-npm view gitpad-github version > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% >> "Ticket\v%VERSION%.md"
+node -pe "require('./package.json').version" > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% >> "Ticket\v%VERSION%.md"
 ::npm version patch > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
 ::set DEFAULT=domyslny
 :: echo %VERSION% &&
