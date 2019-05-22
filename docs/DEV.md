@@ -25,6 +25,14 @@ It's few info about development
 
     -ticket.bat "Solution for some problem"
 
+#### After all changes are ready to publish, use
+    -publish.bat
+
+which execute more scripts inside
+
+    -github-push.bat
+    -npm-publish.bat
+
 ## How to create node module
 https://docs.npmjs.com/creating-node-js-modules
 
