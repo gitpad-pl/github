@@ -6,8 +6,6 @@
 ::echo %CONTENT%
 ::IF "%CONTENT%" == "" set CONTENT="New Version"
 ::echo %CONTENT%
-set /P VERSION= < VERSION.txt
-git push origin v%VERSION%
 npm version patch && node -pe "require('./package.json').version" > VERSION.txt
 ::&& TYPE VERSION.txt | MORE /P > VERSION.txt
 ::set message=New Version of System v%VERSION%
