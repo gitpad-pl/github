@@ -8,9 +8,9 @@
 ::echo %CONTENT%
 npm version patch && node -pe "require('./package.json').version" > VERSION.txt
 ::&& TYPE VERSION.txt | MORE /P > VERSION.txt
-set /P VERSION= < VERSION.txt
-set message=New Version of System v%VERSION%
-git tag -a v%VERSION% -m "%message%"
+::set /P VERSION= < VERSION.txt
+::set message=New Version of System v%VERSION%
+::git tag -a v%VERSION% -m "%message%"
 ::&& echo %CONTENT% > "Ticket\v%VERSION%.md"
 
 ::npm version patch > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
@@ -23,3 +23,4 @@ git tag -a v%VERSION% -m "%message%"
 ::for /f %%i in ('dir /b /od Ticket\*.md') do @set filename=%%i
 ::set /p ticket=<Ticket\%filename%
 ::for /f "delims==" %%a in (Ticket\%filename%) do set ticket=%%a
+git
