@@ -20,10 +20,15 @@ It's few info about development
 #### If you creating one new Feature, be sure that all changes are commited
 
 creating new version
+
     -version.bat
+
 description for ticket
+
     -ticket.bat "Name of Your feature"
+
 ... create changes in code, and publish on github and npm package
+
     -publish.bat
 
 as default param in -ticket.bat is info about new Version
@@ -33,11 +38,13 @@ as default param in -ticket.bat is info about new Version
     -ticket.bat "Solution for some problem"
 
 if fixed use:
+
     -github-push.bat
 
 and if You want create new feature got to the point below
 
 #### After all changes for new Version publish using one command
+
     -publish.bat
 
 which execute more scripts inside
