@@ -8,7 +8,10 @@
 ::echo %CONTENT%
 npm version patch && node -pe "require('./package.json').version" > VERSION.txt
 ::&& TYPE VERSION.txt | MORE /P > VERSION.txt
-::&& set VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
+set /P VERSION= < VERSION.txt
+set message=New Version of System v%VERSION%
+git tag -a v%VERSION% -m "%message%"
+::&& echo %CONTENT% > "Ticket\v%VERSION%.md"
 
 ::npm version patch > VERSION.txt && set /p VERSION= < VERSION.txt && echo %CONTENT% > "Ticket\v%VERSION%.md"
 ::set DEFAULT=domyslny
