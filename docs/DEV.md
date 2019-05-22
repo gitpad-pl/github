@@ -17,10 +17,14 @@ It's few info about development
 
 ## How to work daily, with our environment
 
-#### If you creating one new Feature:
+#### If you creating one new Feature, be sure that all changes are commited
 
+creating new version
     -version.bat
-    -ticket.bat
+description for ticket
+    -ticket.bat "Name of Your feature"
+... create changes in code, and publish on github and npm package
+    -publish.bat
 
 as default param in -ticket.bat is info about new Version
 
