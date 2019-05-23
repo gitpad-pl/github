@@ -5,6 +5,9 @@ It's few info about development
 
 # More info
 
+## How to create npm package
+https://docs.npmjs.com/creating-a-package-json-file
+
 ## How to create node module
 https://docs.npmjs.com/creating-node-js-modules
 
