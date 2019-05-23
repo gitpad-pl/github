@@ -3,7 +3,7 @@ Library for Support Github Api
 Usage is very easy, can help to fast start with github application
 
 
-[More details about it](PACKAGE.md)
+[technical details about library](PACKAGE.md)
 
 ## How to start ?
 
