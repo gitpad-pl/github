@@ -1,3 +1,3 @@
 :: Install the dependencies
 :: npm cache clean
-npm install xmlhttprequest
+npm install axios
