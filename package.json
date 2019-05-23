@@ -2,9 +2,10 @@
   "name": "gitpad-github",
   "version": "1.0.35",
   "description": "API info about gihub repositories",
-  "main": "api.js",
+  "main": "./lib/github.js",
   "directories": {
-    "test": "test"
+    "test": "./test",
+    "lib": "./lib"
   },
   "scripts": {
     "test": "node test.js"
@@ -27,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/gitpad-pl/github/issues"
   },
-  "homepage": "https://github.com/gitpad-pl/github#readme"
+  "homepage": "https://github.com/gitpad-pl/github#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
