@@ -26,3 +26,17 @@ OR Testing the library
 
 ## Please support the project and join to us :)
 [DEV.md](docs/DEV.md)
+
+
+## TODO
+[ ] po zakończeniu prac nad biblioteką przenieść ją do:
+
+    apibuild/github
+
+[] zamienić apicra scripts na
+
+    apicra/npm-github-win
+    lub
+    apicra/npm-github-linux
+
+    w zaleźności od instalacji środowiska
