@@ -29,7 +29,7 @@ OR Testing the library
 
 
 ## TODO
-[ ] po zakończeniu prac nad biblioteką przenieść ją do:
++[] po zakończeniu prac nad biblioteką przenieść ją do:
 
     apibuild/github
 
