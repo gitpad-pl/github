@@ -45,3 +45,31 @@ Results:
        [pear, 54]
      ]
 
+
+
+
+### Under ECMAScript 5, you can combine Object.keys() and Array.prototype.forEach():
+
+    Object.keys(obj).forEach(function(key) {
+
+      console.log(key, obj[key]);
+
+    });
+
+
+
+### In ES6 you can loop through an object like this: (using arrow function)
+
+    Object.keys(myObj).forEach(key => {
+        console.log(key);          // the name of the current key.
+        console.log(myObj[key]);   // the value of the current key.
+    });
+
+
+
+### In ES7 you can use Object.entries instead of Object.keys and loop through an object like this:
+
+    Object.entries(myObj).forEach(([key, val]) => {
+        console.log(key);          // the name of the current key.
+        console.log(val);          // the value of the current key.
+    });
