@@ -36,7 +36,10 @@ OR Testing the library
 - [ ] zamienić apicra scripts na
 
     apicra/npm-github-win
-    lub
+
+lub
+
     apicra/npm-github-linux
 
-    w zaleźności od instalacji środowiska
+w zaleźności od instalacji środowiska
+
