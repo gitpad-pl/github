@@ -29,11 +29,11 @@ OR Testing the library
 
 
 ## TODO
-[ ] po zakończeniu prac nad biblioteką przenieść ją do:
+- [ ] po zakończeniu prac nad biblioteką przenieść ją do:
 
     apibuild/github
 
-[] zamienić apicra scripts na
+- [ ] zamienić apicra scripts na
 
     apicra/npm-github-win
     lub
