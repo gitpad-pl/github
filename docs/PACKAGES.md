@@ -1,6 +1,15 @@
 # Information about used packages
 
 
+## Internal functions from NPM
+
+### base64
+https://nodejs.org/en/docs/guides/buffer-constructor-deprecation/
+
+
+### empty
+our library
+
 
 ## package-json-to-readme Build Status
 
