@@ -23,7 +23,7 @@ OR Testing the library
 
     -test.bat
 
-## Update commands
+## Update commands for Developers
 
 ### Push to git repository, script from package.json: "push": "-github-push.bat",
 
