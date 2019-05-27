@@ -23,6 +23,16 @@ OR Testing the library
 
     -test.bat
 
+## Update commands
+
+### Push to git repository, script from package.json: "push": "-github-push.bat",
+
+    npm run push
+
+### Publish to npm package on npmjs.com, script from package.json: "publish": "-npm-publish.bat"
+
+    npm run publish
+
 
 ## Please support the project and join to us :)
 [DEV.md](docs/DEV.md)

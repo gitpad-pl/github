@@ -13,7 +13,6 @@
     "lib": "./lib"
   },
   "scripts": {
-    "test": "node test.js",
     "push": "-github-push.bat",
     "publish": "-npm-publish.bat"
   },
