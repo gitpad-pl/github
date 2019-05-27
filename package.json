@@ -1,14 +1,21 @@
 {
   "name": "gitpad-github",
   "version": "1.0.64",
+  "title": "Github",
   "description": "API info about gihub repositories",
+  "homepage": "https://github.com/gitpad-pl/github#readme",
+  "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
+  "company": "Softreck OÜ (https://softreck.com)",
+  "license": "MIT",
   "main": "./lib/github.js",
   "directories": {
     "test": "./test",
     "lib": "./lib"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "push": "-github-push.bat",
+    "publish": "-npm-publish.bat"
   },
   "repository": {
     "type": "git",
@@ -18,17 +25,17 @@
     "gitpad",
     "github",
     "api",
-    "read",
-    "data",
-    "info"
+    "devops",
+    "development",
+    "javascript",
+    "library",
+    "app",
+    "tool"
   ],
-  "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
-  "company": "Softreck OÜ (https://softreck.com)",
-  "license": "MIT",
+
   "bugs": {
     "url": "https://github.com/gitpad-pl/github/issues"
   },
-  "homepage": "https://github.com/gitpad-pl/github#readme",
   "dependencies": {
     "axios": "^0.18.0"
   }
