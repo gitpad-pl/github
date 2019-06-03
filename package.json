@@ -7,7 +7,7 @@
   "author": "Tom Sapletta <tom@sapletta.com> (https://tom.sapletta.com)",
   "company": "Softreck OÜ (https://softreck.com)",
   "license": "MIT",
-  "main": "./lib/api.js",
+  "main": "./lib/github.js",
   "directories": {
     "test": "./test",
     "lib": "./lib"
