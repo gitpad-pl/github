@@ -1,1 +1,1 @@
--github-push.bat && -npm-publish.bat
+-github-push.bat && -version.bat && -github-push.bat && -npm-publish.bat

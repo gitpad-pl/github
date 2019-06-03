@@ -12,8 +12,9 @@
     "test": "./test",
     "lib": "./lib"
   },
-  "scripts": {
+  "no-scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "-version.bat",
     "push": "-github-push.bat",
     "publish": "-npm-publish.bat"
   },
