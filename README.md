@@ -5,7 +5,9 @@ Usage is very easy, can help to fast start with github application
 
 [technical details about library](PACKAGE.md)
 
-## How to start ?
+
+
+## How to start using?
 
 Clone repository
 
@@ -37,6 +39,7 @@ OR Testing the library
 ## Please support the project and join to us :)
 [DEV.md](docs/DEV.md)
 
+    -publish.bat
 
 ## TODO
 - [ ] po zakończeniu prac nad biblioteką przenieść ją do:
