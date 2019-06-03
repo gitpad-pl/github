@@ -53,3 +53,5 @@ lub
 
 w zaleźności od instalacji środowiska
 
+### Pryzgotować wygląd
+https://github.com/verdaccio/verdaccio

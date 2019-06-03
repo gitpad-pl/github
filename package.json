@@ -13,12 +13,13 @@
     "lib": "./lib"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "push": "-github-push.bat",
     "publish": "-npm-publish.bat"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gitpad-pl/github.git"
+    "url": "https://github.com/gitpad-pl/github.git"
   },
   "keywords": [
     "gitpad",
@@ -31,11 +32,11 @@
     "app",
     "tool"
   ],
-
   "bugs": {
     "url": "https://github.com/gitpad-pl/github/issues"
   },
   "dependencies": {
-    "axios": "^0.18.0"
+    "axios": "^0.18.0",
+    "gitpad-each": "^1.0.2"
   }
 }

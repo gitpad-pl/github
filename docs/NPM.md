@@ -14,6 +14,14 @@ https://docs.npmjs.com/creating-node-js-modules
 ## Creating and publishing scoped public packages
 https://docs.npmjs.com/creating-and-publishing-scoped-public-packages
 
+## Setting config options for the init command§
+
+You can set default config options for the init command. For example, to set the default author email, author name, and license, on the command line, run the following commands:
+
+    > npm set init.author.email "example-user@example.com"
+    > npm set init.author.name "example_user"
+    > npm set init.license "MIT"
+
 
 ## Start creating and publishing
     npm login

@@ -3,6 +3,31 @@
 If You want join to us, please read it
 It's few info about development
 
+## Steps to Publish
+
+Publishing usually is a simple process.
+
+code => test => publish => revise code => test => publish new version ...
+
+### publish, run
+
+npm publish
+
+This will publish your package to NPM registry.
+Once publish completes(in less than a minute), you can go check your package in the link https://www.npmjs.com/~{username}/{package-name}.
+
+### Versioning
+If you want to make changes to your package, you have to change the version number and publish again.
+To update the version automatically rather than manually updating them.
+These commands are based on semantic versioning:
+
+    npm version patch
+
+    npm version minor
+
+    npm version major
+
+
 ## How to easy start development?
 
 1. Join to our project on Github (https://github.com/gitpad-pl/github)
