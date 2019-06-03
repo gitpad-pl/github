@@ -7,6 +7,7 @@
 ::IF "%CONTENT%" == "" set CONTENT="New Version"
 ::echo %CONTENT%
 npm version patch && node -pe "require('./package.json').version" > VERSION.txt
+-ticket.bat
 ::&& TYPE VERSION.txt | MORE /P > VERSION.txt
 ::set message=New Version of System v%VERSION%
 ::git tag -a v%VERSION% -m "%message%"
