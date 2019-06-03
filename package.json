@@ -37,10 +37,11 @@
     "url": "https://github.com/gitpad-pl/github/issues"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
+    "fs": "0.0.1-security",
     "gitpad-decode": "^1.0.3",
-    "gitpad-each": "^1.0.2",
-    "gitpad-each-filter": "^1.0.2",
+    "gitpad-each": "^1.0.5",
+    "gitpad-each-filter": "^1.0.3",
     "gitpad-empty": "^1.0.2"
   }
 }
