@@ -37,6 +37,9 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "gitpad-each": "^1.0.2"
+    "gitpad-decode": "^1.0.3",
+    "gitpad-each": "^1.0.2",
+    "gitpad-each-filter": "^1.0.2",
+    "gitpad-empty": "^1.0.2"
   }
 }
